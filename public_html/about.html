@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Dorang landing page.">
+    <meta name="author" content="Vanina Rico">
+    <title>Dorang | Free Bootstrap 4.3.x template</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Dorang main styles -->
+    <link rel="stylesheet" href="assets/css/dorang.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: black;
+            font-family: "Lato";
+        }
+
+        .container-fluid {
+            width: 100%;
+            height: 100vh; /* Ajustar la altura al 100% del viewport */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .blog-card {
+            background-color: white;
+            border-radius: 1px;
+            box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.75);
+            height: 80%; /* Ajustado el alto */
+            width: 80%; /* Ajustado el ancho */
+            display: flex;
+            overflow: hidden;
+            margin-top: 100px;
+        }
+
+        .media {
+            background-position: center;
+            background-size: cover;
+            flex: 1;
+        }
+
+        .card-body {
+            color: #252830;
+            padding: 30px;
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tagline {
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            color: #252830;
+            font-family: "Playfair Display SC";
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .divider {
+            background: #999;
+            height: 2px;
+            margin: 25px auto;
+            width: 40px;
+        }
+
+        .paragraph {
+            font-weight: 300;
+            text-align: justify;
+            color: black;
+        }
+
+        .read-more {
+            bottom: 25px;
+            color: #999;
+            cursor: pointer;
+            left: 50%;
+            padding: 5px;
+            position: absolute;
+            text-decoration: none;
+            top: auto;
+            transform: translateX(-50%);
+        }
+
+        .read-more:hover,
+        .read-more:focus,
+        .read-more:visited {
+            color: #252830;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .blog-card {
+                flex-direction: column;
+                height: auto;
+                margin-top: 50px;
+            }
+
+            .media, .card-body {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <!-- page navbar -->
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Sobre mí</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link"><img src="assets/imgs/placeholder.svg"></a></li>
+            <li class="nav-item"><a href="gallery.html" class="nav-link">Galería</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+        </ul>
+    </nav><!-- end of page navbar -->
+
+    <!-- Content Section -->
+    <div class="container-fluid">
+        <div class="blog-card">
+            <div class="media" style="background-image: url('assets/imgs/sobre-mi.png')"></div>
+            <div class="card-body">
+                <p class="tagline">Featured</p>
+                <h3 class="title">Vanina Rico</h3>
+                <div class="divider"></div>
+                <p class="paragraph">Desde el año 2020, se desempeña como fotógrafa profesional, acumulando experiencia en la realización de numerosos books y producciones fotográficas. Su trabajo ha sido destacado en varias muestras fotográficas, donde ha exhibido su talento y creatividad. Además, ha compartido su conocimiento y habilidades impartiendo cursos prácticos de fotografía.</p>
+                <p class="paragraph">Estudiante de la Licenciatura en Fotografía de la Universidad Nacional de San Martín (UNSAM)</p>
+                <a href="#" class="read-more bi bi-chevron-down"></a>
+            </div>
+        </div>
+    </div>
+    <!-- End of Content Section -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Dorang js -->
+    <script src="assets/js/dorang.js"></script>
+
+</body>
+</html>
